@@ -13,6 +13,8 @@ import { RxCross1 } from "react-icons/rx";
 import WorkCard from "@/app/(auth)/our-portfolio/_components/work-card";
 import Link from "next/link";
 import RecommendedSlider from "../../_components/recommend-slider";
+import NavBar from "@/app/(root)/components/navbar";
+import RootLayout from "@/app/(root)/layout";
 
 interface PageProps {
   params: {
@@ -106,7 +108,8 @@ const Page: React.FC<PageProps> = ({ params }) => {
 ]
 
   return (
-    <div className={cn("h-full w-full min-h-screen", poppins.className)}>
+    <RootLayout>
+    <div className={cn("h-full w-full min-h-screen pt-16", poppins.className)}>
       <Banner
         img={bannerData.img}
         name={bannerData.name}
@@ -392,13 +395,14 @@ const Page: React.FC<PageProps> = ({ params }) => {
           >
            Recommendation
           </h1>
-         <div className="mt-4 text-white">
+         <div className="md:mt-12 sm:mt-8 mt-4 text-white">
          <RecommendedSlider isColor={colors.primary} />
          </div>
         </div>
 
       </div>
     </div>
+    </RootLayout>
   );
 };
 

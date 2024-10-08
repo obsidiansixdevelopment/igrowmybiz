@@ -56,7 +56,7 @@ export default function WorkCard() {
   return (
     <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-9 md:gap-5 sm:gap-4 gap-2'>
         { arr?.map((ele,i) => (
-            <Link href={`/our-work/work-detail/${ele?.id}`} target='_blank' key={i} className='rounded-2xl relative my-10 border border-white hover:scale-105 transition-transform hover:shadow-white/20 hover:shadow-xl'>
+            <Link href={`/our-work/work-detail/${ele?.id}`} key={i} className='rounded-2xl relative my-10 border border-white hover:scale-105 transition-transform hover:shadow-white/20 hover:shadow-xl'>
                     <img src={ele?.logo} alt='No preview' className='absolute w-fit h-9 left-14 -top-4 z-20 p-0.5' />
                 <div className=''>
                     <div className='absolute z-10 -top-[19px] left-3'>

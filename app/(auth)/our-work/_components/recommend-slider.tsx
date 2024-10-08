@@ -97,7 +97,7 @@ export default function RecommendedSlider({isColor} : { isColor: string}) {
         {
           arr?.map((ele,i) => (
           <SwiperSlide key={i} className=''>
-            <Link href={`/our-work/work-detail/${ele?.id}`} target='_blank' className='rounded-2xl my-10 border border-white hover:scale-105 transition-transform hover:shadow-white/20 hover:shadow-xl'>
+            <Link href={`/our-work/work-detail/${ele?.id}`} className='rounded-2xl my-10 border border-white hover:scale-105 transition-transform hover:shadow-white/20 hover:shadow-xl'>
                     <img src={ele?.logo} alt='No preview' className='absolute w-fit h-9 left-14 top-2.5 z-20 p-0.5' />
                 <div className=''>
                     <div className='absolute z-10 top-1.5 left-3'>
