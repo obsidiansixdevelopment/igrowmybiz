@@ -145,15 +145,7 @@ export default function Page() {
               mail="aadarsh@igrowmybiz.com"
               alt=""
             />
-            <FoundersCards
-              image="sarfaraz_photo.jpg"
-              info="I'm Sarfaraz Ajm Abadi, co-founder of our IGROW MY BIZ. With an electrical engineering background and over three years in organic social media marketing, brand building, and business growth expert, I bring a unique blend of technical expertise and marketing prowess. My passion lies in crafting innovative strategies to enhance brand visibility and drive sustainable growth. I'm dedicated to staying ahead of industry trends to propel our venture forward. Together with our talented team, we're shaping a brand that resonates, one connection at a time, Join us, and let's create success together!"
-              insta="https://www.instagram.com/digitalabadii/"
-              linkedin="https://www.linkedin.com/in/sarfaraz-ajm-abadi-8636231b4/ "
-              name="Sarfaraz Ajm Abadi"
-              mail="sarfaraz@igrowmybiz.com"
-              alt=""
-            />
+           
           </div>
         </div>
       </section>
